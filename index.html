@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./css/styles.css">
+ <title>Juego del Ahorcado</title>
+</head>
+<body>
+    <!-- contenedor del icono de alura  -->
+    <div class="container_icon">  
+     <img class="icon" src="src/images/aluraIcon.png" alt="Icono de alura"> 
+    </div>
+
+    <!-- contenedor principal --> 
+     <div id="container-main" class="container-main">
+       <div id="container-actions-main" class="container-actions-main">
+         <input id="btn-new-game" type ="button" class="btn-new-game" value="Iniciar Juego">
+         <input id="btn-new-word" type ="button" class="btn-new-word" value="Ingresar palabra">
+       </div>
+     </div>
+
+     <!-- contenedor para la vista de ingreso de nueva palabra -->
+     <div id="container-new-word" class="container-new-word">
+      <div id="container-actions-new-word" class="container-actions-new-word">  
+       <textarea id="input-text" class="input-text" placeholder="Ingresa nueva palabra"></textarea>
+       
+       <!-- Contenedor del mensaje de alerta -->
+       <div class="container-alert-message">
+        <!-- mensaje de alerta de escritura del texto -->
+        <img class="alert-icon" src="src/images/icon_alert.png" alt="icono de alerta"/>  
+        <label id="alert-input-text" class="alert-input-text"> Solo letras mayusculas y maximo 8 caracteres</label>
+       </div>
+
+       <!-- contenedor para los botones de ingreso de nueva palabra -->
+       <div class="container-btns-new-word">
+        <input id="btn-save" type ="button" class="btn-save" value="Guardar">
+        <input id="btn-cancel" type ="button" class="btn-cancel" value="Cancelar">
+       </div> 
+      </div>
+     </div>
+
+     <script src="./js/main.js"></script>
+     <script src="./js/insertNewWord.js"></script>
+</body>
+</html>
