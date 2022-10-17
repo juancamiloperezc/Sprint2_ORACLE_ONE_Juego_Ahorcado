@@ -1,7 +1,7 @@
 // enlace a vistas
 const btnNewGame = document.getElementById("btn-new-game");
 const btnNewWord = document.getElementById("btn-new-word");
-const viewNewGame = document.getElementById("container-actions-main");
+const viewMain = document.getElementById("container-actions-main");
 const viewNewWord = document.getElementById("container-actions-new-word");
 
 
@@ -11,7 +11,7 @@ const ShownewGame = () => {
 };
 
 const showInsertNewWord = () => {
-   viewNewGame.style.display = "none";
+   viewMain.style.display = "none";
    viewNewWord.style.display = "block";
 };
 
