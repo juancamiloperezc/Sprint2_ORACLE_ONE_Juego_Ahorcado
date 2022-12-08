@@ -25,7 +25,7 @@ const validNewWord = () => {
      return false;
    }
 
-   if(validLetters.test(word) || word.length > 8){ // si la palabra no es valida
+   if(validLetters.test(word) || word.length > 11){ // si la palabra no es valida
      alertText.style.color = "red";
      return false;
    }
@@ -65,6 +65,8 @@ const saveWord = () => {
    listWords.push(inputText.value);
    localStorage.setItem("data", JSON.stringify(listWords));
    alert("palabra ingresada");
+
+   // se envía de nuevo al main 
 };
 
 // callbacks a las funciones
