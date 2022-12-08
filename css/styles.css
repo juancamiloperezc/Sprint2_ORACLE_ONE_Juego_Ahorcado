@@ -132,3 +132,33 @@ body{
   font-weight: bold;
   font-style: italic; 
 }
+
+.container-game{
+  display: block;
+}
+
+.container-canvas{
+  display: flex;
+  justify-content: center;
+  align-self: initial;
+}
+
+.canvas{
+    background-color: #90CBFF;
+}
+
+
+@media screen and (max-width: 570px) {
+  .container-btns-new-word{
+    width: 50%;
+    margin: 0 20%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn-save,  
+  .btn-cancel{
+      width: 100%;
+  }
+}
