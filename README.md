@@ -21,12 +21,12 @@ tener eventos del teclado.
 
 ## INTERFAZ GRÁFICA: 
 
-# Página inicial:
+## Página inicial:
 ![image](https://user-images.githubusercontent.com/87032143/206814622-be6462c6-ffdf-4f11-8a8d-fc4915873311.png)
 
-# página de agregar nueva palabra:
+## página de agregar nueva palabra:
 ![image](https://user-images.githubusercontent.com/87032143/206814675-6eeca7f2-9825-4c3d-aaa3-e4b5a5c6de44.png)
 
-# página del juego:
+## página del juego:
 ![image](https://user-images.githubusercontent.com/87032143/206814894-953dc1a0-5336-459b-b0fc-7b745650cca8.png)
 
