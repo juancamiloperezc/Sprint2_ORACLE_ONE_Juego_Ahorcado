@@ -1,7 +1,14 @@
 # Sprint2 ORACLE ONE "JUEGO DEL AHORCADO"
-Desarrollo empleado para el sprint 2 de ORACLE one donde se realiza el juego del ahorcado con html, javascript y css
+El Juego del ahorcado  trata de adivinar la palabra escogida por el programa
+por medio de los eventos generador al pulsar las teclas del equipo u ordenador, 
+en caso de que la letra corresponda a alguna de las palabras se dibujaran en sus posiciones específicas
+en caso de que la letra del evento no corresponda a la palabra escogida se dibujara el muñeco ahorcado.
 
-## Estado : EN DESARROLLO
+## Estado : Terminado
+
+# Recomendación: 
+Abrirse desde un computador, debido a que desde un celular no se podrá observar bien y no se podrá 
+tener eventos del teclado.
 
 ## Requisitos:
 - Debe funcionar solo con letras mayúsculas;
@@ -13,3 +20,13 @@ Desarrollo empleado para el sprint 2 de ORACLE one donde se realiza el juego del
 - Las letras correctas deben aparecer en la pantalla encima de los guiones, en la posición correcta en relación a la palabra.
 
 ## INTERFAZ GRÁFICA: 
+
+# Página inicial:
+![image](https://user-images.githubusercontent.com/87032143/206814622-be6462c6-ffdf-4f11-8a8d-fc4915873311.png)
+
+# página de agregar nueva palabra:
+![image](https://user-images.githubusercontent.com/87032143/206814675-6eeca7f2-9825-4c3d-aaa3-e4b5a5c6de44.png)
+
+# página del juego:
+![image](https://user-images.githubusercontent.com/87032143/206814894-953dc1a0-5336-459b-b0fc-7b745650cca8.png)
+
